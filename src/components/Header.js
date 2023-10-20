@@ -19,8 +19,8 @@ const Header = () => {
           <Link to="filter">
             <li>Filter</li>
           </Link>
-          <Link to="advance">
-            <li>Advance Filter</li>
+          <Link to="studentFilter">
+            <li>All Case Sence</li>
           </Link>
           <Link to="table">
             <li>Table</li>

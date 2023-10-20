@@ -88,7 +88,7 @@ const Studentfilter = () => {
         </div>
 
         <div className="min-h-[50vh] grid sm:grid-cols-3 grid-cols-1 gap-4">
-          {data.data.map((value) => {
+          {student?.data.map((value) => {
             return (
               <div
                 key={value.id}

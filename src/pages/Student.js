@@ -15,6 +15,12 @@ const handleSearch = (search, designation) => {
       method: "get",
     });
   }
+  if (!search && designation) {
+    return request({
+      url: `/students/?designation=${designation}`,
+      method: "get",
+    });
+  }
 
   return request({ url: `/students`, method: "get" });
   // return { data: [] };
@@ -73,7 +79,7 @@ const Student = () => {
         </div>
 
         <div className="min-h-[50vh] grid sm:grid-cols-3 grid-cols-1 gap-4">
-          {data.data.map((value) => {
+          {student?.data.map((value) => {
             return (
               <div
                 key={value.id}
@@ -97,7 +103,7 @@ const Student = () => {
         </div>
 
         {/* Student Search */}
-        {/* {student &&
+        {student &&
           student.data.map((value, index) => {
             return (
               <div className="flex  gap-5">
@@ -105,7 +111,7 @@ const Student = () => {
                 <span>{value.designation}</span>
               </div>
             );
-          })} */}
+          })}
       </div>
     </>
   );

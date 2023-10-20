@@ -1,0 +1,171 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Kiran",
+      "designation": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Lakshman",
+      "designation": "Mern Stack"
+    },
+    {
+      "id": 3,
+      "name": "roshan",
+      "designation": "Developer"
+    },
+    {
+      "name": "Ram",
+      "designation": "Mobile",
+      "id": 4
+    },
+    {
+      "name": "Shyam",
+      "designation": "android",
+      "id": 5
+    },
+    {
+      "name": "roshan",
+      "designation": "rana",
+      "id": 6
+    },
+    {
+      "name": "Kiran",
+      "designation": "Abc",
+      "id": 7
+    },
+    {
+      "name": "roshan",
+      "designation": "Android",
+      "id": 8
+    },
+    {
+      "name": "roshan",
+      "designation": "Mern Developer",
+      "id": 9
+    }
+  ],
+  "tabledata": [
+    {
+      "id": 1,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!",
+      "name": "Kiran",
+      "value": 600,
+      "age": 29,
+      "isActive": false,
+      "gender": "Female",
+      "designation": "Developer"
+    },
+    {
+      "id": 2,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!",
+      "name": "Lakshman",
+      "value": 200,
+      "age": 22,
+      "isActive": true,
+      "gender": "male",
+      "designation": "Mern Stack"
+    },
+    {
+      "id": 3,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!",
+      "name": "roshan",
+      "value": 100,
+      "age": 26,
+      "isActive": false,
+      "gender": "male",
+      "designation": "Developer"
+    },
+    {
+      "name": "Ram",
+      "value": 700,
+      "age": 24,
+      "isActive": true,
+      "gender": "male",
+      "designation": "Mobile",
+      "id": 4,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "Shyam",
+      "value": 800,
+      "age": 28,
+      "isActive": true,
+      "gender": "male",
+      "designation": "android",
+      "id": 5,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "roshan",
+      "value": 200,
+      "age": 21,
+      "isActive": true,
+      "gender": "male",
+      "designation": "rana",
+      "id": 6,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "Kiran",
+      "value": 500,
+      "age": 22,
+      "isActive": false,
+      "gender": "Female",
+      "designation": "Abc",
+      "id": 7,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "roshan",
+      "value": 900,
+      "age": 36,
+      "isActive": true,
+      "gender": "male",
+      "designation": "Android",
+      "id": 8,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "roshan",
+      "value": 1000,
+      "age": 26,
+      "isActive": true,
+      "gender": "male",
+      "designation": "Mern Developer",
+      "id": 9,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "Nidhi",
+      "value": 3000,
+      "age": 24,
+      "isActive": false,
+      "gender": "Female",
+      "designation": "Node js Developer",
+      "id": 10,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "Abhilasha",
+      "value": 400,
+      "age": 26,
+      "isActive": false,
+      "gender": "Female",
+      "designation": "React Js",
+      "id": 11,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    },
+    {
+      "name": "Khushi",
+      "value": 800,
+      "age": 22,
+      "isActive": false,
+      "gender": "Female",
+      "designation": "Back End ",
+      "id": 12,
+      "body": " facere veniam. In vero delectus explicabo! Exercitationem!"
+    }
+  ]
+}
